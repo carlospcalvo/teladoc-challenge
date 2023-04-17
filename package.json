@@ -3,16 +3,17 @@
 	"version": "1.0.0",
 	"description": "",
 	"type": "module",
+	"author": "Carlos Calvo Nazábal",
+	"license": "ISC",
+	"keywords": [],
 	"scripts": {
 		"build": "tsc",
 		"start": "yarn build &&  node ./dist/index.js",
 		"dev": "ts-node ./src/index.ts",
-		"test": "jest"
+		"test": "jest --verbose"
 	},
-	"keywords": [],
-	"author": "Carlos Calvo Nazábal",
-	"license": "ISC",
 	"devDependencies": {
+		"@babel/preset-typescript": "^7.21.4",
 		"@jest/globals": "^29.5.0",
 		"@types/inquirer": "^9.0.3",
 		"@types/jest": "^29.5.0",

@@ -2,55 +2,55 @@ import { describe, expect, test } from "@jest/globals";
 import findLongestRepeatedSubstring from "../utils/longestRepeatedSubstr.js";
 
 describe("Return the longest repeated substring in a given string", () => {
-	test("Test Case 1 - Input: empty string ('')", () => {
+	test("Test Case 01 - Input: empty string ('')", () => {
 		const inputString = "";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("");
 	});
 
-	test("Test Case 2 - Input: 'aa'", () => {
+	test("Test Case 02 - Input: 'aa'", () => {
 		const inputString = "aa";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("a");
 	});
 
-	test("Test Case 3 - Input: 'abab'", () => {
+	test("Test Case 03 - Input: 'abab'", () => {
 		const inputString = "abab";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("ab");
 	});
 
-	test("Test Case 4 - Input: 'ababa'", () => {
+	test("Test Case 04 - Input: 'ababa'", () => {
 		const inputString = "ababa";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("aba");
 	});
 
-	test("Test Case 5 Input: 'nick'", () => {
+	test("Test Case 05 - Input: 'nick'", () => {
 		const inputString = "nick";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("");
 	});
 
-	test("Test Case 6 - Input: 'Mississippi'", () => {
+	test("Test Case 06 - Input: 'Mississippi'", () => {
 		const inputString = "Mississippi";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("issi");
 	});
 
-	test("Test Case 7 - Input: 'stuff'", () => {
+	test("Test Case 07 - Input: 'stuff'", () => {
 		const inputString = "stuff";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("f");
 	});
 
-	test("Test Case 8 - Input: 'abcabcabc'", () => {
+	test("Test Case 08 - Input: 'abcabcabc'", () => {
 		const inputString = "abcabcabc";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("abcabc");
 	});
 
-	test("Test Case 9 - Input: 'abcdefghi'", () => {
+	test("Test Case 09 - Input: 'abcdefghi'", () => {
 		const inputString = "abcdefghi";
 		const result = findLongestRepeatedSubstring(inputString);
 		expect(result).toBe("");

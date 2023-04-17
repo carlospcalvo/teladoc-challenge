@@ -2,55 +2,55 @@ import { describe, expect, test } from "@jest/globals";
 import countPalindromicSubstrings from "../utils/palindromeCounter.js";
 
 describe("Given a string s, return the number of palindromic substrings in it.", () => {
-	test("Test case 1 - Input: empty string ('')", () => {
+	test("Test case 01 - Input: empty string ('')", () => {
 		const inputString = "";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(0);
 	});
 
-	test("Test case 2 - Input: 'abc'", () => {
+	test("Test case 02 - Input: 'abc'", () => {
 		const inputString = "abc";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(3);
 	});
 
-	test("Test case 3 - Input: 'aaa'", () => {
+	test("Test case 03 - Input: 'aaa'", () => {
 		const inputString = "aaa";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(6);
 	});
 
-	test("Test case 4 - Input: 'a'", () => {
+	test("Test case 04 - Input: 'a'", () => {
 		const inputString = "a";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(1);
 	});
 
-	test("Test case 5 - Input: 'ababa'", () => {
+	test("Test case 05 - Input: 'ababa'", () => {
 		const inputString = "ababa";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(9);
 	});
 
-	test("Test case 6 - Input: 'abcdefg'", () => {
+	test("Test case 06 - Input: 'abcdefg'", () => {
 		const inputString = "abcdefg";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(7);
 	});
 
-	test("Test case 7 - Input: 'aaaaa'", () => {
+	test("Test case 07 - Input: 'aaaaa'", () => {
 		const inputString = "aaaaa";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(15);
 	});
 
-	test("Test case 8 - Input: 'ab cba  c'", () => {
+	test("Test case 08 - Input: 'ab cba  c'", () => {
 		const inputString = "ab cba  c";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(8);
 	});
 
-	test("Test case 9 - Input: 'madam'", () => {
+	test("Test case 09 - Input: 'madam'", () => {
 		const inputString = "madam";
 		const result = countPalindromicSubstrings(inputString);
 		expect(result).toBe(7);

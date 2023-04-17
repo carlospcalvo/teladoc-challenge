@@ -3,7 +3,7 @@ import { Answers } from "inquirer";
 export enum OPTIONS {
 	PALINDROMES = "Count the palindroms in a string",
 	SUBSTRINGS = "Get the longest repeated substring in a string",
-	EXIT = "Exit",
+	EXIT = "None, please let me out",
 }
 
 export interface FirstQuestion extends Answers {

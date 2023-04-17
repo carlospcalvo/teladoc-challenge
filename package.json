@@ -7,8 +7,7 @@
 		"build": "tsc",
 		"start": "yarn build &&  node ./dist/index.js",
 		"dev": "ts-node ./src/index.ts",
-		"test": "jest",
-		"test:watch": "jest --watch"
+		"test": "jest"
 	},
 	"keywords": [],
 	"author": "Carlos Calvo Nazábal",

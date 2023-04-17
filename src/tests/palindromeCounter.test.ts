@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import countPalindromicSubstrings from "../utils/palindromeCounter";
+import countPalindromicSubstrings from "../utils/palindromeCounter.js";
 
 describe("Given a string s, return the number of palindromic substrings in it.", () => {
 	test("Test case 1 - Input: empty string ('')", () => {

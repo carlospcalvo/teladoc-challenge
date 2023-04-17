@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import findLongestRepeatedSubstring from "../utils/longestRepeatedSubstr";
+import findLongestRepeatedSubstring from "../utils/longestRepeatedSubstr.js";
 
 describe("Return the longest repeated substring in a given string", () => {
 	test("Test Case 1 - Input: empty string ('')", () => {

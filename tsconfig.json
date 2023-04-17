@@ -8,6 +8,7 @@
 		"rootDir": "src",
 		"moduleResolution": "NodeNext",
 		/**** Emit ****/
+		"outDir": "./dist",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		/* Type Checking */
@@ -15,6 +16,7 @@
 		"noImplicitAny": true,
 		"skipLibCheck": true
 	},
+	"exclude": ["**/tests/*", "**/jest.config.ts"],
 	"ts-node": {
 		"esm": true
 	}

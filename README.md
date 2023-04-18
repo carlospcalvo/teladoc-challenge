@@ -7,7 +7,18 @@ Interactive CLI program to test the functions from the code challenge.
 git clone  https://github.com/carlospcalvo/teladoc-challenge.git
 ```
 ---
-### 2. Run the `start` command 
+### 2. Install dependencies
+With `yarn`
+```bash
+yarn install
+```
+
+With `npm`
+```bash
+npm install
+```
+---
+### 3. Run the `start` command 
 With `yarn`
 ```bash
 yarn start
